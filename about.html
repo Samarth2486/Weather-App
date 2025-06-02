@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About - Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset & base */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      main {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 30px 40px;
+        border-radius: 15px;
+        max-width: 800px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+        letter-spacing: 1.2px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 1.15rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #f0f0f0;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      }
+
+      footer {
+        margin-top: 40px;
+        font-size: 0.9rem;
+        color: #e0e0e0;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+      }
+
+      a.footer-link {
+        color: #f5d742;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+
+      a.footer-link:hover {
+        color: #ffe066;
+        text-decoration: underline;
+      }
+
+      /* Responsive */
+      @media (max-width: 480px) {
+        main {
+          padding: 25px 20px;
+        }
+
+        h1 {
+          font-size: 2.2rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section id="about">
+        <h2>What's the aim of this application</h2>
+        <p>
+          This Weather App provides real-time weather updates for the mentioned
+          cities.
+        </p>
+      </section>
+
+      <section id="team">
+        <h2>What does the user learn while making this project?</h2>
+        <p>
+          A weather app project reveals a developer's ability to work with
+          real-time data, understand APIs, and create user-friendly interfaces.
+          It also demonstrates skills in data processing, display, and
+          potentially, integration with weather services.
+        </p>
+      </section>
+    </main>
+    <footer>
+      &copy; 2025 M. Samarth — &nbsp;
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/m-samarth-584a19248/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >LinkedIn</a
+      >
+      |
+      <a class="footer-link" href="mailto:samarthapj@gmail.com">Email</a>
+    </footer>
+  </body>
+</html>
